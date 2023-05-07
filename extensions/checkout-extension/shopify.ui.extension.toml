@@ -1,0 +1,9 @@
+type = "checkout_ui_extension"
+name = "checkout-extension"
+
+extension_points = [
+  'Checkout::Dynamic::Render'
+]
+
+[capabilities]
+api_access = true

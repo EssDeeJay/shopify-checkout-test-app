@@ -1,0 +1,8 @@
+type = "checkout_ui_extension"
+name = "delivery-instructions"
+
+extension_points = [
+  'Checkout::ShippingMethods::RenderAfter'
+]
+[capabilities]
+api_access = true
